@@ -1,0 +1,7 @@
+ml-api:
+    build:
+      context: ./ml-api
+    ports:
+      - "5001:5000"
+    volumes:
+      - ./ml-api:/app
